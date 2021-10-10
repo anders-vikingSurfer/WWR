@@ -1,0 +1,42 @@
+div.hero{
+    /* placing the . behind the div denotes it as a class*/
+    /*Make everything in this class the same*/
+  
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+
+nav.a{
+    text-align: center;
+}
+
+h1.home-title{
+    text-align: center;
+}
+
+.h4{
+    text-align: center;
+}
+
+div.button-box{
+    text-align: center;
+}
+
+main.home-grid{
+    text-align: center;
+}
+
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:#91785D;
+}
+nav a:hover {
+    background-color: #8B5D33;
+}
+
+footer{
+    background-color:#91785D;
+}
+           

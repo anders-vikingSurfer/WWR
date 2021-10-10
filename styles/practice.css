@@ -1,0 +1,22 @@
+img{
+
+    border: 5px solid green;
+    width: 70%;
+
+}
+
+h1, p {
+    border: 5px solid blue;
+    text-align: center
+}
+
+#image-box{
+    text-align: center;
+}
+
+p{
+    font-size: 3em;
+    /*This will make the font size 3 times bigger than the default  */
+}
+
+/* THIS WILL ALIGN IN THE page --> text-align: center;  & THIS WILL ALIGN IN THE box --> margin: 0 auto;*/

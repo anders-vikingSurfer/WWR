@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../1st_Project"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WhiteWater_Rafting"
+	}
+}

@@ -1,0 +1,115 @@
+div.hero{
+    /* placing the . behind the div denotes it as a class*/
+    /*Make everything in this class the same*/
+  
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+
+nav a{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+h1.home-title{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.h4{
+    text-align: center;
+    color: whitesmoke;
+}
+
+div.button-box{
+    text-align: center;
+}
+
+main.home-grid{
+    text-align: center;
+}
+
+body {
+    background-color: #869D7A; 
+}
+header {
+    background-color:#91785D;
+}
+nav a:hover {
+    background-color: #8B5D33;
+    color: whitesmoke;
+}
+
+a.book{
+    background-color: #8B5D33;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+ 
+a.join{
+    background-color: #8B5D33;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+a.book:hover{
+    background-color: #8B5D33;
+    color: whitesmoke;
+}
+
+a.join:hover{ 
+    background-color: aliceblue;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+section.msg{
+    background-color: antiquewhite;
+}
+
+footer{
+    background-color: #91785D;
+}
+
+footer.a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer.h3{
+    color: whitesmoke;
+
+}
+
+footer a:hover{
+    color:whitesmoke;
+}
+
+
+.p{
+    color: whitesmoke;
+}
+
+.h2{
+    color: whitesmoke;
+}
+
+img.rivericon{
+    width: 80px;
+}
+
+<img.fireicon{
+    width: 80px;
+}
+
+
+img.oarsicon{
+    width: 80px;
+
+}
+
+
