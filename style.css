@@ -1,9 +1,13 @@
-div.hero{
+#content{
     /* placing the . behind the div denotes it as a class*/
     /*Make everything in this class the same*/
   
     max-width: 1600px;
     margin: 0 auto;
+    /*This is only for centering the images*/
+    }
+    img{
+        width: 100%;
     }
 
 nav a{
@@ -12,21 +16,21 @@ nav a{
     text-decoration: none;
 }
 
-h1.home-title{
+.home-title{
     text-align: center;
     color: whitesmoke;
 }
 
-.h4{
+h4{
     text-align: center;
     color: whitesmoke;
 }
 
-div.button-box{
+.button-box{
     text-align: center;
 }
 
-main.home-grid{
+.home-grid{
     text-align: center;
 }
 
@@ -49,19 +53,19 @@ a.book{
 
 }
  
-a.join{
+.join{
     background-color: #8B5D33;
     color: whitesmoke;
     text-decoration: none;
 
 }
 
-a.book:hover{
+.book:hover{
     background-color: #8B5D33;
     color: whitesmoke;
 }
 
-a.join:hover{ 
+.join:hover{ 
     background-color: aliceblue;
     color: whitesmoke;
     text-decoration: none;
@@ -88,10 +92,6 @@ footer.h3{
 
 }
 
-footer.{
-    width: 8px;
-
-}
 
 footer a:hover{
     color:rgb(139, 112, 112);
@@ -109,19 +109,19 @@ footer a:hover{
     color: whitesmoke;
 }
 
-img.rivericon{
+.rivericon{
 
     width: 80px;
 
 }
 
 
-img.fireicon{
+.fireicon{
     width: 80px;
 }
 
 
-img.oarsicon{
+.oarsicon{
     width: 80px;
 
 }
