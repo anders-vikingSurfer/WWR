@@ -6,16 +6,20 @@ div.hero{
     margin: 0 auto;
     }
 
-nav.a{
+nav a{
     text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 h1.home-title{
     text-align: center;
+    color: whitesmoke;
 }
 
 .h4{
     text-align: center;
+    color: whitesmoke;
 }
 
 div.button-box{
@@ -27,12 +31,90 @@ main.home-grid{
 }
 
 body {
-    background-color: #fcfbfb; 
+    background-color: #869D7A; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:#91785D;
 }
 nav a:hover {
-    background-color: black;
+    background-color: #8B5D33;
+    color: whitesmoke;
 }
-           
+
+a.book{
+    background-color: #8B5D33;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+ 
+a.join{
+    background-color: #8B5D33;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+a.book:hover{
+    background-color: #8B5D33;
+    color: whitesmoke;
+}
+
+a.join:hover{ 
+    background-color: aliceblue;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+section.msg{
+    background-color: antiquewhite;
+}
+
+footer{
+    background-color: #91785D;
+    text-align: left;
+}
+
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer.h3{
+    color: whitesmoke;
+
+}
+
+footer a:hover{
+    color:rgb(139, 112, 112);
+
+}
+
+
+.p{
+    color: whitesmoke;
+}
+
+.h2{
+    color: whitesmoke;
+}
+
+img.rivericon{
+
+    width: 80px;
+
+}
+
+
+img.fireicon{
+    width: 80px;
+}
+
+
+img.oarsicon{
+    width: 80px;
+
+}
+
+
