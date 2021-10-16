@@ -1,10 +1,15 @@
-div.hero{
+.hero{
     /* placing the . behind the div denotes it as a class*/
     /*Make everything in this class the same*/
   
     max-width: 1600px;
     margin: 0 auto;
     }
+
+
+#logo-link{
+    width: 100px;
+}
 
 nav a{
     text-align: center;

@@ -1,129 +1,199 @@
-#content{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,400&family=Nunito+Sans:wght@200&display=swap');
+
+#content {
     /* placing the . behind the div denotes it as a class*/
+    /* # denotes an id*/
     /*Make everything in this class the same*/
-  
+
     max-width: 1600px;
     margin: 0 auto;
     /*This is only for centering the images*/
-    }
-    img{
-        width: 100%;
-    }
+}
 
-nav a{
+#logo_link {
+    width: 30px;
+    padding-top: 5px;
+}
+
+#hero-img {
+    width: 100%;
+
+}
+
+nav a {
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
+    padding: 35px;
 }
 
-.home-title{
+.home-title {
     text-align: center;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 10px;
+
+}
+
+h4 {
+    text-align: center;
+    text-decoration: none;
     color: whitesmoke;
 }
 
-h4{
-    text-align: center;
-    color: whitesmoke;
-}
-
-.button-box{
+.button-box {
     text-align: center;
 }
 
-.home-grid{
+.home-grid {
     text-align: center;
 }
 
 body {
-    background-color: #869D7A; 
+    background-color: #869D7A;
+    margin: 0;
+    padding: 0;
 }
+
 header {
-    background-color:#91785D;
+    background-color: #91785D;
     text-align: center;
+    font-family: 'Arvo';
 }
+
 nav a:hover {
     background-color: #8B5D33;
     color: whitesmoke;
 }
 
-a.book{
+a.book {
     background-color: #8B5D33;
     color: whitesmoke;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
- 
-.join{
-    background-color: #8B5D33;
+
+.join {
+    background-color: #869D7A;
     color: whitesmoke;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
-.book:hover{
-    background-color: #8B5D33;
+.book:hover {
+    background-color: #295f29;
     color: whitesmoke;
 }
 
-.join:hover{ 
+.join:hover {
     background-color: aliceblue;
     color: whitesmoke;
     text-decoration: none;
+    font-size: 18px;
+
 
 }
 
-section.msg{
+.msg {
     background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif 'Nunito Sans', sans-serif;
+    font-size: 8em;
+    line-height: 1.5em 
+    padding: 35px;
 }
 
-footer{
+#msp p {
+    padding-bottom: 15px;
+}
+
+footer {
     background-color: #835a2f;
     text-align: left;
+    padding: 25px 50px;
 }
 
-footer a{
+footer a {
     color: whitesmoke;
     text-decoration: none;
     text-align: left;
+    margin-top: 200px;
 }
 
-footer.h3{
+h3 {
     color: whitesmoke;
 
 }
 
 
-footer a:hover{
-    color:rgb(139, 112, 112);
+footer a:hover {
+    color: rgb(65, 104, 57);
+
+}
+
+footer .social img {
+    padding-top: 15px;
 
 }
 
 
-
-
-.p{
+p {
     color: whitesmoke;
 }
 
-.h2{
-    color: whitesmoke;
+h4 {
+    text-align: center;
 }
 
-.rivericon{
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.h2 {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+
+.rivericon {
 
     width: 80px;
 
 }
 
 
-.fireicon{
+.fireicon {
     width: 80px;
 }
 
 
-.oarsicon{
+.oarsicon {
     width: 80px;
 
 }
 
 
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-cards {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
