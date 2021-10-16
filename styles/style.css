@@ -35,6 +35,9 @@ main.home-grid{
     text-align: center;
 }
 
+.card-img {
+    border: 10px solid #d9c2a3;
+
 body {
     background-color: #869D7A; 
 }
