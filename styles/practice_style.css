@@ -20,6 +20,10 @@
 
 }
 
+#logo{
+    padding-top: 5px
+}
+
 nav a {
     text-align: center;
     color: black;
@@ -50,10 +54,21 @@ section{
     color: rgb(150, 146, 146);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 2em;
     margin-top: 10px;
 }
+
+main section img{
+
+
+    box-sizing: border-box;
+
+
+}
+
+
 h2{
-    margin: 0;
+
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
     margin: 0;
@@ -92,6 +107,7 @@ h4{
     
 }
 
+
 .card-img {
     border: 10px solid #d9c2a3;
 
@@ -110,22 +126,30 @@ footer{
     margin-top: 200px;
     padding: 25px 50px;
 }
+footer .social img{
+    padding-top: 15px;
+}
 
-.rivericon {
+.msg {
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p{
+    font-size: .8em;
+    padding: 15px;
+}
+
+.icon {
 
     width: 80px;
+    padding-top: 10px;
 
 }
 
-
-.fireicon {
-    width: 80px;
-}
-
-
-.oarsicon {
-    width: 80px;
-}
 
 
 
