@@ -31,6 +31,11 @@ nav a {
     padding: 35px;
 }
 
+nav a:hover {
+    background-color: #8B5D33;
+    color: whitesmoke;
+}
+
 header{
     text-align: left;
     background-color:beige;
@@ -58,6 +63,11 @@ section{
     margin-top: 10px;
 }
 
+#hero-img {
+    width: 100%;
+
+}
+
 main section img{
 
 
@@ -79,11 +89,12 @@ h4{
 
 .button-box{
     text-align: center;
-    margin: 50px;
+    margin-top: 15px;
+    margin-bottom: 95px;
 }
 
 .join-us{
-    margin: 50px;
+    margin: 10px;
 
 }
 
