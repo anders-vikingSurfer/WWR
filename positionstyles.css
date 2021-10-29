@@ -173,6 +173,7 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+    /* MORE POSITIVE Z-INDEX MORE FORWARD*/
   display: grid;
   grid-template-columns: repeat(6, 100px);
 }
